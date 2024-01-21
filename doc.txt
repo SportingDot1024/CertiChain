@@ -1,0 +1,32 @@
+Authentication
+Roles > govt / industries / org, students
+
+Techstacks => MERN + SOLIDITY, IPFS storage
+
+Dependencies => Mongooser, EXpress, React, bcryptjs, jsonwebtoken, qrcode, truffle
+dev deps => nodemon
+
+--- flow ---
+
+Home => create account => 
+//roles
+1. students
+ a. Menu => Your certifications, profile
+ b. your Certifications => enter hash id to verify / qrcode
+ c. hash id acquired through email sent from institute.
+
+2. Institutes / Govt / Industries
+ a. Menu => Generate certificate, profile, schemes or plans
+ b. Genenerate cert => upload students list file > certificate customization > generation of hash ids
+ c. Validate cert => upload cert, public hash id
+
+
+--- features ---
+1. Certificate generation using blockchain
+2. cert validation
+3. IPFS decentralized storage system
+4. Custom certificate editor
+5. Secured authentication
+
+
+

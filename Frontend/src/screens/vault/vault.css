@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+@font-face {
+    font-family: nico;
+    src: url("../../assets/fonts/nico.ttf");
+}
+
+.container {
+    width: 100%;
+    height: max-content;
+    background: #0B0B0B;
+}
+
+.lander {
+    width: 100%;
+    height: 100vh;
+    background: #0B0B0B;
+    padding: 50px 30px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.subContainer{
+    z-index: 4;
+    width: 100%;
+}
+
+.vtitle{
+    font-family: "nico";
+    font-size: 40px;
+    color: white;
+    z-index: 3;
+    margin-top: 20px;
+}
+
+.subContainer .sub{
+    width: 80%;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.cardsWrap{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.card{
+    width: 300px;
+    height: max-content;
+    background-color: rgb(6, 0, 35);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.card .cert{
+    width: 100%;
+    height: auto;   
+}
+
+.card:hover > .glass{
+    display: flex;
+}
+
+.glass{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background: rgba(0, 0, 0, 0.253);
+}
+
+.card .btn{
+    margin-top: 0;
+}
+
+.popup{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.36);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup .certC{
+    width: 40%;
+    height: max-content;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.popup .certC .cert{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.buttonsCont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 5  ;
+}
+
+.buttonsCont .b{
+    width: max-content;
+    height: max-content;
+    padding: 10px 15px;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    font-family:"Lexend Deca";
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.buttonsCont .b.sb{
+    background-color: blueviolet;
+}
+
+.buttonsCont .b.fb:hover{
+    background-color: blueviolet;
+}
+
+.valid{
+    width: 100%;
+    height: 100vh;
+}
+
+.valid .subContainer .cert{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sec1{
+    width: 50%;
+    height: 100%;
+}
+
+.valid .container .lander .subContainer{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.valid .container .lander .subContainer .sec2 {
+    padding: 30px 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.valid .container .lander .subContainer .sec2 .title{
+    font-size: 30px;
+    width: 100%;
+}
+
+.valid .container .lander .subContainer .sec2 .sub{
+    font-size: 15px;
+    width: 60%;
+}
+
+.qr{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hash{
+    margin-top: 20px;
+    width: 280px;
+    height: 45px;
+    background-color: #1a1a1a;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    padding: 10px;
+    font-family: "Lexend Deca";
+}
+
+.cp{
+    width: max-content;
+    padding: 0 25px;
+    height: 45px;
+    border-radius:10px;
+    background-color: #393939;
+    border:none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Lexend Deca";
+}

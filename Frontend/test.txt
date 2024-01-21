@@ -1,0 +1,121 @@
+
+<div className="dnavbar">Your certificates of id-1 have been generated!</div>
+          <div className="dlander">
+            <div className="nb">
+              <div>
+                <div className="dtitle">Dashboard</div>
+                <div className="sub s">
+                  Customize and generate all your certifications!
+                </div>
+              </div>
+              <button className="cbtn">Generate Certificates</button>
+            </div>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Date</th>
+                  <th>Course</th>
+                  <th>Progress</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>21/12/2000</td>
+                  <td>BlockChain</td>
+                  <td>100%</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>21/12/2003</td>
+                  <td>Webcourse</td>
+                  <td>20%</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>21/12/2002</td>
+                  <td>Networking</td>
+                  <td>76%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          
+.dnavbar{
+    width: 100%;
+    height: 35px;
+    margin-top: 50px;
+    font-family: "Lexend Deca";
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: rgb(21, 21, 21);
+    border-top: 2px solid rgba(255, 255, 255, 0.147);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.201);
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: "Lexend Deca";
+    color: #fff;
+    min-width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th{
+    padding: 12px 15px;
+    height: 45px;
+}
+
+.styled-table td {
+    background-color: #0f0f0f;
+    padding: 12px 18px;
+    height: 60px;
+}
+
+
+.sub.s{
+    font-size: 12px;
+    margin-top: 3px;
+    width: 90%;
+}
+
+.nb{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nb .cbtn{
+    width: max-content;
+    height: max-content;
+    padding: 7px 25px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-family: "Lexend Deca";
+    cursor: pointer;
+    border: 2px solid rgb(50, 50, 50);
+}
+
+.nb .cbtn:hover{
+    background: #674FFF;
+    border: none;
+}

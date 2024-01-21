@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+@font-face {
+    font-family: nico;
+    src: url("../../assets/fonts/nico.ttf");
+}
+
+.dcontainer {
+    width: 200vw;
+    height: 100vh;
+    background: rgb(35, 35, 35);
+    display: flex;
+}
+
+.dlander {
+    width: 100vw;
+    height: 100vh;
+    background: #0B0B0B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dtitle {
+    font-family: "nico", serif;
+    font-size: 20px;
+    color: white;
+    height: max-content;
+}
+
+
+.sideNav{
+    width: 300px;
+    height: 100%;
+    padding: 30px;
+    background-color: #1a1a1a;
+    color: white;
+    border-right: 2px solid #303030;
+}
+
+.subContainer{
+    width: calc(100% - 300px);
+    height: 100vh;
+    padding: 30px;
+}
+
+.subContainer .sub.s{
+    color: rgba(255, 255, 255, 0.695);
+    font-size: 13px;
+    width: 40%;
+}
+
+
+.sub.s {
+    font-size: 11px;
+    margin-top: 3px;
+    width: 90%;
+    color: #ffffff38;
+    font-family: "Lexend Deca", serif;
+}
+
+
+.list{
+    color: rgb(149, 149, 149);
+    width: 100%;
+    height: max-content;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list .aWrap{
+    width: 100%;
+    height: max-content;
+    padding:15px 10px;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.list .aWrap:hover{
+    color: white;
+    background-color: #303030;
+}
+
+.list .aWrap .link{
+    color: inherit;
+    font-family: "Lexend Deca", serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.selected{
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.tab{
+    border-radius: 10px;
+    width: 100%;
+    margin: 25px 0;
+    height: max-content;
+    overflow: hidden;
+    border: 1px solid #303030;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: "Lexend Deca", serif;
+    color: #fff;
+    min-width: 100%;
+    height: 45px;
+}
+
+.styled-table thead tr {
+    border: 1px solid #303030;
+    background-color: #181818;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th {
+    font-weight: normal;
+    padding: 10px 15px;
+    height: 45px;
+}
+
+.styled-table td {
+    background-color: #1f1f1f;
+    padding: 10px 18px;
+    height: 60px;
+    font-size: 12px;
+}
+
+.btnsContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.button{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #303030;
+    gap: 10px;
+}
+
+.button .ctitle{
+    font-family: "Lexend Deca", serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+.button .cimg{
+    width: auto;
+    height: 150px;
+}
+
+.cbtn{
+    height: 38px;
+    color: white;
+    border: 2px solid #303030;
+    font-family: "Lexend Deca", serif;
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cbtn:hover{
+    background: rgb(181, 103, 255);
+    border: none;
+}
+
+.cbtn ion-icon{
+    padding-right: 10px;
+    font-size: 14px;
+}

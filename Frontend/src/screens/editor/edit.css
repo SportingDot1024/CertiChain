@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+@font-face {
+    font-family: nico;
+    src: url("../../assets/fonts/nico.ttf");
+}
+
+.dcontainer {
+    width: 100%;
+    height: 100vh;
+    background: rgb(35, 35, 35);
+    display: flex;
+    overflow: hidden;
+}
+
+.emid {
+    width: calc(100% - 600px);
+    height: 100vh;
+    background: #0B0B0B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dtitle {
+    font-family: "nico";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+}
+
+
+.esideNav {
+    width: 300px;
+    height: 100%;
+    padding: 30px;
+    background-color: #1a1a1a;
+    color: white;
+    overflow-y: scroll;
+    border-right: 2px solid #303030;
+}
+
+.topbar{
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid #303030;
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hanging-punctuation: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.topbar .buttons .bt{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #303030;
+    cursor: pointer;
+}
+
+.topbar .buttons .bt:hover{
+    background:#303030;
+}
+
+.esideNav.rt{
+    border-left: 2px solid #303030;
+    border-right: none;
+}
+
+.esideNav .subContainer {
+    width: calc(100% - 300px);
+    height: 100vh;
+    padding: 30px;
+}
+
+.esideNav .subContainer .sub.s {
+    color: rgba(255, 255, 255, 0.695);
+    font-size: 13px;
+    width: 40%;
+}
+
+
+.selector{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.th{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #303030;
+}
+
+
+.sub.m{
+    font-family: "Lexend Deca";
+    font-size: 12px;
+}
+
+
+.empty.th{
+    height: 150px;
+    font-size: 11px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lexend Deca";
+    user-select: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.empty.th .cbtn{
+    padding: 8px 20px;
+    background-color: #674FFF;
+    border: none;
+    border-radius: 30px;
+}
+
+.new{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.new-out{
+    width: 70%;
+    border-radius: 2px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    transition: none;
+    border: 3px solid transparent;
+}
+
+.new-out:hover{
+    border: 3px solid #674FFF;
+}
+
+.new *{
+    position: absolute;
+    transform-origin:center ;
+}
